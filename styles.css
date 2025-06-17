@@ -1,4 +1,5 @@
-*{font-family: "Roboto";
+*{
+font-family: "Roboto";
 list-style-type: none;
 }
 a{
@@ -6,24 +7,21 @@ a{
     color: black;
 }
 body{
-font-family: "Roboto";
+font-family: "Roboto", sans-serif;
+color: #434455;
+background-color: #FFFFFF;
 }
 
-.main-hooter{
-    font-family: "Raleway", sans-serif;
-    color: #434455;
-    background-color: #FFFFFF;
-}
 /* navigation section */
 
-.header-navigation-logo,
-.footer-logo{
+.header-navigation-logo{
 font-family: "Raleway", sans-serif;
 font-weight: 700;
 font-size: 18px;
 line-height: 1.17;
 letter-spacing: 0.03em;
 color: #4D5AE5;
+text-transform: uppercase;
 }
 .header-navigation-logo-color{
 font-family: "Raleway";
