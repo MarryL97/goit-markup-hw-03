@@ -37,15 +37,41 @@ color: #2E2F42;
 font-weight: 500;
 font-size: 16px;
 line-height: 24px;
-letter-spacing: 2%;
+letter-spacing: 0.02em;
 color: #2E2F42;
 }
+.header-navigation-list.hover{
+    color: #404bbf;
+}
+.header-navigation-list.focus{
+    color: #404bbf ;
+}
+
 .address-list{
+font-style: normal;
 font-weight: 400;
 font-size: 16px;
 line-height: 24px;
-letter-spacing: 2%;
+letter-spacing: 0.02em;
 color: #434455;
+}
+.address-list.hover{
+color: #404bbf ;
+}
+.address-list.focus{
+color: #404bbf ;
+}
+.adress-list-info{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.adress-list-info:hover{
+color: #404bbf ;
+}
+.adress-list-info.focus{
+color: #404bbf ;
 }
 /* navigation section end */
 
