@@ -13,8 +13,7 @@ a{
 }
 /* navigation section */
 
-.header-navigation-logo,
-.footer-logo{
+.header-navigation-logo{
 font-family: "Raleway", sans-serif;
 font-weight: 700;
 font-size: 18px;
@@ -130,7 +129,8 @@ button{
 .benefits-list-item-name {
 font-weight: 500;
 font-size: 20px;
-line-height:  0.02em;
+line-height: 1.2;
+ letter-spacing: 0.02em;
 color: #2e2f42;
 }
 .benefits-list-item-text {
@@ -143,7 +143,7 @@ letter-spacing: 0.02em;
 
 /* our team start */
 .team-main{
-    background-color: #F4F4FD;
+    background-color: #FFFFFF;
 }
 .team-title{
 font-weight: 700;
@@ -189,7 +189,7 @@ line-height: 1.11;
 letter-spacing: 0.02em;
 text-align: center;
 color: #2E2F42;
-ext-transform: capitalize;
+text-transform: capitalize;
 }
 .portfolio-list {
 }
@@ -216,13 +216,17 @@ color: #434455;
     background-color: #2E2F42;
 }
 .footer-main{
+font-family: "Raleway", sans-serif;
 font-weight: 700;
 font-size: 18px;
-line-height: 21px;
-letter-spacing: 3%;
+line-height: 1.17;
+letter-spacing: 0.03em;
 vertical-align: middle;
 text-transform: uppercase;
-color: #F4F4FD;
+color: #4d5ae5;
+}
+.footer-logo{
+    color: #f4f4fd ;
 }
 .footer-text{
 font-weight: 400;
