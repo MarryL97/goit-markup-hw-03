@@ -105,10 +105,10 @@ letter-spacing: 0.04em;
 color: #FFFFFF;
 background-color: #4D5AE5;
 }
-.hero-banner-button:hover{
+button:hover{
 color: #404bbf ;
 }
-.hero-banner-button:focus{
+button:focus{
 color: #404bbf ;
 }
 button{
@@ -143,7 +143,7 @@ letter-spacing: 0.02em;
 
 /* our team start */
 .team-main{
-    background-color: #FFFFFF;
+    background-color: #F4F4FD;
 }
 .team-title{
 font-weight: 700;
@@ -155,9 +155,9 @@ color: #2E2F42;
  text-transform: capitalize;
 }
 .team-list {
-     background-color: #FFFFFF;
 }
 .team-list-gaid {
+      background-color: #FFFFFF;
 }
 .team-list-photo {
 }
