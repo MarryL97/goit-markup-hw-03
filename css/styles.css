@@ -44,6 +44,16 @@ color: #2E2F42;
 .header-navigation-list:focus{
     color: #404bbf ;
 }
+.header-navigation-page{
+    color: #2E2F42;
+}
+.header-navigation-page:hover{
+color: #404bbf ;
+}
+.header-navigation-page:focus{
+color: #404bbf ;
+}
+
 .address{
     font-style: normal;
 }
@@ -77,25 +87,33 @@ color: #404bbf ;
 
 /* hero baner start */
 .hero-banner{
-background-image: url(./img/background.jpg);
+background-color: #2e2f42;
 }
 .hero-banner-text{
 font-weight: 700;
 font-size: 56px;
-line-height: 60px;
-letter-spacing: 2%;
+line-height: 1.07;
+letter-spacing: 0.02em;
 text-align: center;
 color: #FFFFFF;
 }
 .hero-banner-button{
+font-family: "Roboto", sans-serif;
 font-weight: 500;
 font-size: 16px;
 line-height: 24px;
-letter-spacing: 4%;
+letter-spacing: 0.04em;
 color: #FFFFFF;
 background-color: #4D5AE5;
 }
+.hero-banner-button:hover{
+color: #404bbf ;
+}
+.hero-banner-button:focus{
+color: #404bbf ;
+}
 button{
+    font-family: "Roboto", sans-serif;
     cursor: pointer;
 }
 /* hero baner end */
@@ -112,12 +130,14 @@ button{
 .benefits-list-item-name {
 font-weight: 500;
 font-size: 20px;
-line-height: 24px;
+line-height:  0.02em;
+color: #2e2f42;
 }
 .benefits-list-item-text {
 font-weight: 400;
 font-size: 16px;
 line-height: 24px;
+letter-spacing: 0.02em;
 }
 /*  main information end */
 
@@ -128,12 +148,14 @@ line-height: 24px;
 .team-title{
 font-weight: 700;
 font-size: 36px;
-line-height: 40px;
-letter-spacing: 2%;
+line-height: 1.11;
+letter-spacing: 0.02em;
 text-align: center;
 color: #2E2F42;
+ text-transform: capitalize;
 }
 .team-list {
+     background-color: #FFFFFF;
 }
 .team-list-gaid {
 }
@@ -143,7 +165,7 @@ color: #2E2F42;
 font-weight: 500;
 font-size: 20px;
 line-height: 24px;
-letter-spacing: 2%;
+letter-spacing: 0.02em;
 text-align: center;
 color:#2E2F42;
 }
@@ -151,7 +173,7 @@ color:#2E2F42;
 font-weight: 400;
 font-size: 16px;
 line-height: 24px;
-letter-spacing: 2%;
+letter-spacing: 0.02em;
 text-align: center;
 color: #434455;
 }
@@ -163,10 +185,11 @@ color: #434455;
 .portfolio-name {
 font-weight: 700;
 font-size: 36px;
-line-height: 40px;
-letter-spacing: 2%;
+line-height: 1.11;
+letter-spacing: 0.02em;
 text-align: center;
 color: #2E2F42;
+ext-transform: capitalize;
 }
 .portfolio-list {
 }
@@ -205,6 +228,6 @@ color: #F4F4FD;
 font-weight: 400;
 font-size: 16px;
 line-height: 24px;
-letter-spacing: 2%;
+letter-spacing: 0.02em;
 color: #F4F4FD;
 }
