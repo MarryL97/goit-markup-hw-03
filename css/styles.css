@@ -106,10 +106,10 @@ color: #FFFFFF;
 background-color: #4D5AE5;
 }
 button:hover{
-color: #404bbf ;
+background-color: #404bbf ;
 }
 button:focus{
-color: #404bbf ;
+background-color: #404bbf ;
 }
 button{
     font-family: "Roboto", sans-serif;
@@ -199,14 +199,14 @@ text-transform: capitalize;
 font-weight: 500;
 font-size: 20px;
 line-height: 24px;
-letter-spacing: 2%;
+letter-spacing: 0.02em;
 color: #2E2F42;
 }
 .portfolio-list-text {
 font-weight: 400;
 font-size: 16px;
 line-height: 24px;
-letter-spacing: 2%;
+letter-spacing: 0.02em;
 color: #434455;
 }
 /* our portfolio end */
