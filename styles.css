@@ -13,7 +13,7 @@ font-family: "Roboto";
 .header-main{
     width: 1440;
 height: 72;
-
+padding-top: 1440px, 72px, 1440px, 72px;
 }
 .main-hooter{
     font-family: "Raleway", sans-serif;
