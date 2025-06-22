@@ -2,6 +2,7 @@
 list-style-type: none;
 margin: 0;
 padding: 0;
+box-sizing: border-box; 
 }
 a{
     text-decoration: none;
@@ -10,10 +11,25 @@ a{
 body{
 font-family: "Roboto";
 }
-.header-main{
-    width: 1440;
-height: 72;
-padding-top: 1440px, 72px, 1440px, 72px;
+
+h1, h2, h3, h4, h5, h6, p, div, a{
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+ul{
+    margin: 0;
+    padding-left: 0;
+}
+img {
+    display: block;
+    width: 100%;
+    height: auto;}
+.container{
+    width: 1440px;
+height: 72px;
+margin: 0 auto;
+outline: 1px solid rgba(0, 0, 0, 0.25);
 }
 .main-hooter{
     font-family: "Raleway", sans-serif;
